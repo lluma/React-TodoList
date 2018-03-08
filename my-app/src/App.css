@@ -1,0 +1,69 @@
+body {
+  background-color: #E1F5FE;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-device-width: 480px) {
+  .mynav a {
+    visibility: hidden;
+  }
+}
+
+.mynav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.mynav a:hover {
+    color: yellow;
+}
+
+.mynav a.active {
+    color: #1E88E5;
+    font-weight: 700;
+}
+
+.addForm {
+  margin-top: 2%;
+  margin-left: 15%;
+  margin-right: 3%;
+  display: flex;
+  flex-direction: column;
+}
+
+.addForm-title {
+  color: #B39DDB;
+}
+
+.todoList {
+  margin-top: 3%;
+}
+
+.todoItemWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.todoItem {
+  width: 90%;
+}
+
+.cardHeader {
+  display: flex;
+}
+
+.deleteButton {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.EditField {
+  margin-left: 3%;
+}
